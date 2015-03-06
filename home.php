@@ -109,8 +109,7 @@
                     <br>
                     <img src="img/sampledata1.png" style="width:400px;height:400px">
                 </div>
-                <div class="col-md-12" id="checkbox"></div>
-                <div class="col-md-12" id="pulldown"></div>
+                <div class="col-md-12" id="interactive"></div>
                 <script src="js/api.js">
                 </script>
             </div>
@@ -189,6 +188,8 @@
                     </small>
                 </p>
             </div>
+            <button id="hide">Hide</button>
+<button id="show">Show</button>
         </div>
     </div>
 </body>
