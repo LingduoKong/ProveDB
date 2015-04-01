@@ -37,10 +37,11 @@
         </nav>
         <div class="container" style="padding-top:70px">
             <div id="instruction" class="jumbotron" >
-                <h2>Instruction</h2><br>
+                <h2>Instruction</h2>
+                <hr>
                 <p>
                     <small>
-                    ProvDB's API provides a RESTful web service for storage and access of provenance documents in various formats of the W3C's <a href="#">PROV Data Model</a>. Using the API, any client can upload PROV-compliant documents and query them using the PROV description model.
+                    ProvDB's API provides a RESTful web service for storage and access of provenance documents in various formats of the W3C's <a href="#">PROV Data Model</a>. Using the API, any client can upload PROV-compliant documents and query them using the PROV description model.<br>
                     This document provides details and examples of the available endpoints and resources at a low level. Existing libraries can be used instead to publish and access provenance documents available through ProvDB.
                     </small>
                 </p>
@@ -189,7 +190,7 @@
                 </p>
             </div>
             <button id="hide">Hide</button>
-<button id="show">Show</button>
+            <button id="show">Show</button>
         </div>
     </div>
 </body>
