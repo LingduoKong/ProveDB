@@ -189,8 +189,6 @@
                     </small>
                 </p>
             </div>
-            <button id="hide">Hide</button>
-            <button id="show">Show</button>
         </div>
     </div>
 </body>
