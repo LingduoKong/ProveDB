@@ -1,3 +1,29 @@
+$bgDefault      : #e74c3c;
+$bgHighlight    : #c0392b;
+$colDefault     : #ecf0f1;
+$colHighlight   : #33aa33;
+
+.navbar-custom {
+  border-color: #FFFF66;
+}
+.navbar-custom .navbar-brand {
+  color: white;
+}
+/*.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #111;
+}*/
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #FFF;
+  font-size: 13px;
+  font-weight: bold;
+}
+.navbar-custom .navbar-nav > .active > a:hover{
+  background-color: #66CCFF;
+}
+
 /*!
  * Bootstrap v3.3.2 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -3065,8 +3091,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #3399FF;
+  border-color: #0066FF;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -4840,12 +4866,15 @@ a.badge:focus {
 .jumbotron {
   padding: 30px 15px;
   margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
+  background-color: #FFFFD6;
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
+}
+.jumbotron h2,
+.jumbotron.h2 {
+  color: #333314;
 }
 .jumbotron p {
   margin-bottom: 15px;
